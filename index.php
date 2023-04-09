@@ -43,7 +43,8 @@
               <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
                 <li><a href="#home-section" class="nav-link">Home</a></li>
                 <li><a href="#courses-section" class="nav-link">Courses</a></li>
-                <li><a href="#programs-section" class="nav-link">Programs</a></li>
+               
+                <li><a href="#jobs/internship-section" class="nav-link">Jobs/Internship</a></li>
                 <li><a href="#teachers-section" class="nav-link">Teachers</a></li>
                 <li><a href="https://roadmap.sh/" target="_blank">Roadmap</a></li>
               </ul>
@@ -312,79 +313,137 @@
     </div>
 
 
-    <div class="site-section" id="programs-section">
+    <div class="site-section Job-Title" id="Job/Internship-section">
       <div class="container">
         <div class="row mb-5 justify-content-center">
-          <div class="col-lg-7 text-center"  data-aos="fade-up" data-aos-delay="">
-            <h2 class="section-title">Our Programs</h2>
-            <p>We aim to make studying SIMPLE, EASY and ACCESSIBLE to EVERYONE thus we collected the BEST COURSES in the world in one place.</p>
+          <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="">
+            <h2 class="section-title">Courses</h2>
           </div>
         </div>
-        <div class="row mb-5 align-items-center">
-          <div class="col-lg-7 mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="images/undraw_youtube_tutorial.svg" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
-            <h2 class="text-black mb-4">We Are Excellent In Education</h2>
-            <p class="mb-4">Education is an art and we are the artists.</p>
-
-            <div class="d-flex align-items-center custom-icon-wrap mb-3">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-graduation-cap"></span></span>
-              <div><h3 class="m-0">2,931 Yearly Graduates</h3></div>
-            </div>
-
-            <div class="d-flex align-items-center custom-icon-wrap">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-university"></span></span>
-              <div><h3 class="m-0">50 Universities Worldwide</h3></div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="row mb-5 align-items-center">
-          <div class="col-lg-7 mb-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
-            <img src="images/undraw_teaching.svg" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-lg-4 mr-auto order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-            <h2 class="text-black mb-4">Strive for Excellent</h2>
-            <p class="mb-4">our goal is your success.</p>
-
-            <div class="d-flex align-items-center custom-icon-wrap mb-3">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-graduation-cap"></span></span>
-              <div><h3 class="m-0">2,931 Yearly Graduates</h3></div>
-            </div>
-
-            <div class="d-flex align-items-center custom-icon-wrap">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-university"></span></span>
-              <div><h3 class="m-0">50 Universities Worldwide</h3></div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="row mb-5 align-items-center">
-          <div class="col-lg-7 mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="images/undraw_teacher.svg" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
-            <h2 class="text-black mb-4">Education is life</h2>
-            <p class="mb-4">Beginning of a never ending journey of learning.</p>
-
-            <div class="d-flex align-items-center custom-icon-wrap mb-3">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-graduation-cap"></span></span>
-              <div><h3 class="m-0">2,931 Yearly Graduates</h3></div>
-            </div>
-
-            <div class="d-flex align-items-center custom-icon-wrap">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-university"></span></span>
-              <div><h3 class="m-0">50 Universities Worldwide</h3></div>
-            </div>
-
-          </div>
-        </div>
-
       </div>
     </div>
+    <div class="site-section courses-entry-wrap"  data-aos="fade-up" data-aos-delay="100">
+      <div class="container">
+        <div class="row">
+
+          <div class="owl-carousel col-12 nonloop-block-14">
+
+          <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <!-- add the Web Development image -->
+                <img src="images/website-development.jpg" alt="Image" class="img-fluid" >
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+                <span class="course-price">FREE</span>
+                <div class="meta"><span class="icon-clock-o"></span>20 Lessons / 4 week</div>
+                <h3><a href="#">Introduction to web development</a></h3>
+                <p>Discover the world of Websites. </p>
+              </div>
+              <div class="d-flex border-top stats">
+                <div class="py-3 px-4"><span class="icon-users"></span> 2,100 students</div>
+                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 9</div>
+              </div>
+            </div>
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <!-- add the cloud computing image -->
+                <img src="images/cloud_computing.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+                <span class="course-price">FREE</span>
+                <div class="meta"><span class="icon-clock-o"></span>20 Lessons / 4 week</div>
+                <h3><a href="#">Introduction to Cloud Computing</a></h3>
+                <p>Discover the world of cloud computing. </p>
+              </div>
+              <div class="d-flex border-top stats">
+                <div class="py-3 px-4"><span class="icon-users"></span> 2,100 students</div>
+                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 9</div>
+              </div>
+            </div>
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <!-- add the database image -->
+                <img src="images/Database.jpg" alt="Image" class="img-fluid">
+              </figure>
+              
+              <div class="course-inner-text py-4 px-4">
+                <span class="course-price">FREE</span>
+                <div class="meta"><span class="icon-clock-o"></span>4 Lessons / 12 week</div>
+                <h3><a href="#">Database</a></h3>
+                <p>Dive Into The Basics Of Database. </p>
+              </div>
+              <div class="d-flex border-top stats">
+                <div class="py-3 px-4"><span class="icon-users"></span> 3,193 students</div>
+                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
+              </div>
+            </div>
+
+
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <img src="images/img_4.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+                <span class="course-price">FREE</span>
+                <div class="meta"><span class="icon-clock-o"></span>3 Lessons / 9 week</div>
+                <h3><a href="#">C++</a></h3>
+                <p>Learn the most famous programming language. </p>
+              </div>
+              <div class="d-flex border-top stats">
+                <div class="py-3 px-4"><span class="icon-users"></span> 1,123 students</div>
+                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 8</div>
+              </div>
+            </div>
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <img src="images/img_5.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+                <span class="course-price">FREE</span>
+                <div class="meta"><span class="icon-clock-o"></span>2 Lessons / 5 week</div>
+                <h3><a href="#">Java</a></h3>
+                <p>java is a must learn versatile language. </p>
+              </div>
+              <div class="d-flex border-top stats">
+                <div class="py-3 px-4"><span class="icon-users"></span> 1,523 students</div>
+                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 6</div>
+              </div>
+            </div>
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <img src="images/img_6.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+                <span class="course-price">FREE</span>
+                <div class="meta"><span class="icon-clock-o"></span>5 Lessons / 7 week</div>
+                <h3><a href="#">Python</a></h3>
+                <p>Begin your journey in the world of AI. </p>
+              </div>
+              <div class="d-flex border-top stats">
+                <div class="py-3 px-4"><span class="icon-users"></span> 2,453 students</div>
+                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 5</div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-7 text-center">
+            <button class="customPrevBtn btn btn-primary m-1">Prev</button>
+            <button class="customNextBtn btn btn-primary m-1">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   
 
     <div class="site-section" id="teachers-section">
       <div class="container">
